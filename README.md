@@ -1,3 +1,8 @@
+EDIT: Build with:
+```shell
+docker buildx build  --platform linux/arm64,linux/amd64 --push -t 117533191630.dkr.ecr.eu-west-1.amazonaws.com/sdu/sentry-kubernetes:20220615-1.0.1 .
+```
+
 sentry-kubernetes
 =================
 
